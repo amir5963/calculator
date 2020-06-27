@@ -1,0 +1,27 @@
+.Btn{
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+}
+
+h1{
+    padding: -20px;
+    color: lightgray;
+    text-align: center;
+}
+
+
+table{
+    background-color: blue;
+    border-radius: 25px;
+    padding: 10px;
+    border: 15px solid rgb(181, 181, 7);
+}
+
+.input{
+    width: 200px;
+    height: 50px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+}

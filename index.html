@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <center>   
+<table>
+    <tr>
+        <td colspan="4"><h1>Calculator</h1></td>
+    <tr>
+<td colspan="4"><input id="screen" class="input" type="text">   </td>        
+    </tr>
+<tr>
+    <td><button onclick="screenClear()" class= "Btn">C</button></td>
+    <td><button onclick="screenSign('/')" class= "Btn">&#247;</button></td>
+    <td><button onclick="screenSign('*')" class= "Btn">x</button></td>
+    <td><button onclick="backSpace()" class= "Btn">&#8592;</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="getNumber(7)" class= "Btn">7</button></td>
+    <td><button onclick="getNumber(8)" class= "Btn">8</button></td>
+    <td><button onclick="getNumber(9)" class= "Btn">9</button></td>
+    <td><button onclick="screenSign('+')" class= "Btn">+</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="getNumber(4)" class= "Btn">4</button></td>
+    <td><button onclick="getNumber(5)" class= "Btn">5</button></td>
+    <td><button onclick="getNumber(6)" class= "Btn">6</button></td>
+    <td><button onclick="screenSign('-')"class= "Btn">-</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="getNumber(1)" class= "Btn">1</button></td>
+    <td><button onclick="getNumber(2)" class= "Btn">2</button></td>
+    <td><button onclick="getNumber(3)" class= "Btn">3</button></td>
+    <td><button onclick="brackets()" class= "Btn">()</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="screenSign('+/-')" class= "Btn">+/-</button></td>
+    <td><button onclick="getNumber(0)" class= "Btn">0</button></td>
+    <td><button onclick="getNumber('.')" class= "Btn">.</button></td>
+    <td colspan="2"> <button onclick="result()" class= "Btn">=</button></td>
+</tr>
+</table>
+</center>
+
+
+
+
+
+
+
+    
+    <script src="App.js"></script>
+</body>
+</html>
